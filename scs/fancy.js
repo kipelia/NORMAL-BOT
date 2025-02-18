@@ -1,7 +1,7 @@
-const { adams } = require("../Ibrahim/adams");
+const { adams } = require("../Eliakim/tech");
 const fancy = require("../scs/stylish");
 
-adams({ nomCom: "fancy", categorie: "Fun", reaction: "〽️" }, async (dest, zk, commandeOptions) => {
+eliakim({ nomCom: "fancy", categorie: "Fun", reaction: "〽️" }, async (dest, zk, commandeOptions) => {
     const { arg, repondre, prefixe } = commandeOptions;
     const id = arg[0]?.match(/\d+/)?.join('');
     const text = arg.slice(1).join(" ");
