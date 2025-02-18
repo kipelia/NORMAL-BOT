@@ -6,7 +6,7 @@ const {
   Sticker,
   StickerTypes
 } = require('wa-sticker-formatter');
-adams({
+eliakim({
   'nomCom': "ranime",
   'categorie': 'Fun',
   'reaction': '📺'
@@ -37,7 +37,7 @@ adams({
     _0x131828("Error retrieving data from JSON.");
   }
 });
-adams({
+eliakim({
   'nomCom': "google",
   'categorie': 'Search'
 }, async (_0xce35ee, _0x580287, _0x1a7926) => {
@@ -65,7 +65,7 @@ adams({
     _0x44c3f6("An error occurred during Google search.");
   }
 });
-adams({
+eliakim({
   'nomCom': "imdb",
   'categorie': "Search"
 }, async (_0x3e0c57, _0x31cdeb, _0x68675d) => {
@@ -113,7 +113,7 @@ adams({
     _0x390000("An error occurred while searching IMDb.");
   }
 });
-adams({
+eliakim({
   'nomCom': "movie",
   'categorie': 'Search'
 }, async (_0x41a878, _0x44c40c, _0x3424dd) => {
@@ -157,7 +157,7 @@ adams({
     _0x111c6a("An error occurred while searching IMDb.");
   }
 });
-adams({
+eliakim({
   'nomCom': "emomix",
   'categorie': 'Conversion'
 }, async (_0x551458, _0x2c4778, _0x21c569) => {
