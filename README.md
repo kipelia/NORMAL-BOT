@@ -106346,7 +106346,7 @@
 - <a href="https://www.eliakimtech.site/scanner"><img title="GET SESSION OPT 1" src="https://img.shields.io/badge/GET SESSION-h?color=pink&style=for-the-badge&logo=Eliakim" width="220" height="38.45"/></a></p>
 
 
-- <a href="https://www.eliakimtech.site/Deploy"><img title="GET SESSION OPT 2" src="https://img.shields.io/badge/DEPLOY-h?color=red&style=for-the-badge&logo=Eliakim" width="220" height="38.45"/></a></p>
+- <a href="https://www.eliakip/NORMAL-BOT#main.site/Deploy"><img title="GET SESSION OPT 2" src="https://img.shields.io/badge/DEPLOY-h?color=red&style=for-the-badge&logo=Eliakim" width="220" height="38.45"/></a></p>
 
 </p>
 
