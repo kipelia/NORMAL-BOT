@@ -1,4 +1,4 @@
-const { adams } = require('../Ibrahim/adams');
+const { adams } = require('../Eliakim/tech');
 const { attribuerUnevaleur } = require('../lib/welcome');
 
 async function events(nomCom) {
