@@ -1,12 +1,12 @@
 const {
   adams
-} = require("../Ibrahim/adams");
+} = require("../Eliakim/tech");
 const axios = require("axios");
 const Genius = require("genius-lyrics");
 const Client = new Genius.Client("jKTbbU-6X2B9yWWl-KOm7Mh3_Z6hQsgE4mmvwV3P3Qe7oNa9-hsrLxQV5l5FiAZO");
 
 // Define the command with aliases
-adams({
+eliakim({
   nomCom: "lyrics",
   aliases: ["mistari", "lyric"],
   reaction: '📜',
@@ -53,7 +53,7 @@ adams({
 
   const caption = `
 ╭──────────━⊷
-║ *Bot Name:* BMW XMD
+║ *Bot Name:* ELIAKIM MD
 ║ *Title:* ${title}
 ║ *Artist:* ${artist}
 ╰──────────━⊷\n\n
@@ -80,7 +80,7 @@ ${lyrics}`;
     await sendResponse(caption);
   }
 });
-adams({
+eliakim({
   'nomCom': 'poll',
   'reaction': '💠',
   'categorie': "General"
@@ -107,7 +107,7 @@ adams({
   });
 });
 
-adams({
+eliakim({
   'nomCom': 'fact',
   'reaction': '👌',
   'categorie': 'User'
@@ -119,9 +119,9 @@ adams({
   } = _0x20339c;
   const _0x5754a8 = await fetch("https://nekos.life/api/v2/fact");
   const _0x21e127 = await _0x5754a8.json();
-  _0x12e23a(" *BMW MD FACT MESSAGE* \n*💠* " + _0x21e127.fact + "\n\n\n\n\n*©Ibrahim Adams*\n\n╔═════◇\n║◇ *BMW MD*\n╚════════════════════>  ");
+  _0x12e23a(" *ELIAKIM MD FACT MESSAGE* \n*💠* " + _0x21e127.fact + "\n\n\n\n\n*©Ibrahim Adams*\n\n╔═════◇\n║◇ *BMW MD*\n╚════════════════════>  ");
 });
-adams({
+eliakim({
   'nomCom': "quote",
   'reaction': '🗿',
   'categorie': 'User'
@@ -133,10 +133,10 @@ adams({
   } = _0x53dc51;
   const _0x2784cf = await fetch('https://favqs.com/api/qotd');
   const _0x1f25fb = await _0x2784cf.json();
-  const _0x2b238b = "\nBMW MD QUITE MESSAGE \n◇ _" + _0x1f25fb.quote.body + "_\n\n\n◇ *AUTHOR:* " + _0x1f25fb.quote.author + "\n\n\n\n\n◇ *©Ibrahim Adams**\n\n\n╔═════◇\n║◇ *BMW MD*\n╚════════════════════> ";
+  const _0x2b238b = "\nELIAKIM MD QUITE MESSAGE \n◇ _" + _0x1f25fb.quote.body + "_\n\n\n◇ *AUTHOR:* " + _0x1f25fb.quote.author + "\n\n\n\n\n◇ *©Ibrahim Adams**\n\n\n╔═════◇\n║◇ *BMW MD*\n╚════════════════════> ";
   _0x3bef2d(_0x2b238b);
 });
-adams({
+eliakim({
   'nomCom': 'define',
   'reaction': '😁',
   'categorie': "Search"
