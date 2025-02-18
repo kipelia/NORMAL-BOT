@@ -1,4 +1,4 @@
-const {adams} = require("../Ibrahim/adams");
+const {adams} = require("../Eliakim/tech");
 const {getMessagesAndXPByJID,getBottom10Users} = require("../lib/level");
 
 
