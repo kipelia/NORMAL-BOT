@@ -1,4 +1,4 @@
-const { adams } = require("../Ibrahim/adams");
+const { adams } = require("../Eliakim/tech");
 const { default :axios } = require("axios");
 const { mediafireDl } = require("../Ibrahim/dl/Function");
 
