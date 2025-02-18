@@ -1,13 +1,13 @@
 
 
-const {adams } = require("../Ibrahim/adams");
+const {adams } = require("../Eliakim/tech");
 const axios = require('axios');
 const cheerio = require('cheerio');
 let func = require('../Ibrahim/mesfonctions') ;
 let hdb = require('../lib/hentai') ;
 
 
-adams({
+eliakim({
   nomCom: "hwaifu",
   categorie: "Hentai",
   reaction: "🍑"
@@ -35,7 +35,7 @@ async (origineMessage, zk, commandeOptions) => {
 
 
   /////////////// hneko //////////
-adams({
+eliakim({
   nomCom: "trap",
   categorie: "Hentai",
   reaction: "🍑"
@@ -63,7 +63,7 @@ async (origineMessage, zk, commandeOptions) => {
   }
 });
 
-adams({
+eliakim({
   nomCom: "hneko",
   categorie: "Hentai",
   reaction: "🍑"
@@ -91,7 +91,7 @@ async (origineMessage, zk, commandeOptions) => {
 });
 
 
-adams({
+eliakim({
   nomCom: "blowjob",
   categorie: "Hentai",
   reaction: "🍑"
@@ -120,7 +120,7 @@ async (origineMessage, zk, commandeOptions) => {
 
 
 
-adams({
+eliakim({
   nomCom: "hentaivid",
   categorie: "Hentai",
   reaction: "🍑"
