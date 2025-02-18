@@ -1,4 +1,4 @@
-const {adams }= require ('../Ibrahim/adams') ;
+const {adams }= require ('../Eliakim/tech') ;
 const {addstickcmd, deleteCmd, getCmdById, inStickCmd , getAllStickCmds} = require('../lib/stickcmd') ;
 
 
@@ -30,7 +30,7 @@ adams(
 
     }) ; 
 
-    adams(
+    eliakim(
       {
           nomCom: 'delcmd',
           categorie: 'stickcmd'
@@ -62,7 +62,7 @@ adams(
   );
   
 
-  adams(
+  eliakim(
     {
         nomCom: 'allcmd',
         categorie: 'stickcmd'
