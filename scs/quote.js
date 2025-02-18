@@ -1,5 +1,5 @@
 
-const { adams } = require('../Ibrahim/adams');
+const { adams } = require('../Eliakim/tech');
 
 adams({ nomCom: 'quote', categorie: 'Fun' }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, verifGroupe, arg } = commandeOptions;
@@ -14,7 +14,7 @@ adams({ nomCom: 'quote', categorie: 'Fun' }, async (dest, zk, commandeOptions) =
         .then((response) => response.json())
         .then(async (quote) => {
           repondre(`╔══════════════════════════╗
-║   Bwm xmd              ║
+║   Eliakim Md              ║
 ╚══════════════════════════╝
 
 🎬 Anime: ${quote.anime}
@@ -34,7 +34,7 @@ Powered by Bwm xmd`);
         .then((response) => response.json())
         .then(async (quote) => {
           repondre(`╔══════════════════════════╗
-║   Bmw-md               ║
+║   Eliakim Md               ║
 ╚══════════════════════════╝
 
 🎬 Anime: ${quote.anime}
