@@ -1,7 +1,7 @@
 const {
   adams
-} = require("../Ibrahim/adams");
-adams({
+} = require("../Eliakim/tech");
+eliakim({
   'nomCom': 'github',
   'reaction': '📃',
   'categorie': "Search"
