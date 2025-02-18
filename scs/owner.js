@@ -1,6 +1,6 @@
 
 
-const { adams } = require("../Ibrahim/adams");
+const { adams } = require("../Eliakim/tech");
 const {getAllSudoNumbers,isSudoTableNotEmpty} = require("../lib/sudo")
 const conf = require("../config");
 
@@ -53,17 +53,17 @@ adams({ nomCom: "owner", categorie: "General", reaction: "🚘" }, async (dest, 
   }
 });
 
-adams({ nomCom: "dev", categorie: "General", reaction: "🚘" }, async (dest, zk, commandeOptions) => {
+eliakim({ nomCom: "dev", categorie: "General", reaction: "🚘" }, async (dest, zk, commandeOptions) => {
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: " Mr Ibrahim adams", numero: "254710772666" },
-      { nom: "᚛Sir Ibrahim Adams᚜", numero: "254739937062" },
-      { nom: "Mr Adams", numero: "254739937062" },
+      { nom: " Mr Eliakim tech", numero: "254745931715" },
+      { nom: "᚛Sir Eliakim Tech᚜", numero: "254745931715" },
+      { nom: "Mr Eliakim", numero: "254745931715" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = "WELCOME TO BWM XMD HELP CENTER! ASK FOR HELP FROM ANY OF THE DEVELOPERS BELOW:\n\n";
+    let message = "WELCOME TO ELIAKI MD HELP CENTER! ASK FOR HELP FROM ANY OF THE DEVELOPERS BELOW:\n\n";
     for (const dev of devs) {
       message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;
     }
