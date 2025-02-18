@@ -1,6 +1,6 @@
 
 const axios = require("axios");
-const {adams} = require("../Ibrahim/adams");
+const {adams} = require("../Eliakim/tech");
 const traduire = require("../Ibrahim/traduction");
 const {Sticker ,StickerTypes}= require('wa-sticker-formatter');
 
