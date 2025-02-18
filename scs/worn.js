@@ -1,4 +1,4 @@
-const { adams } = require('../Ibrahim/adams');
+const { adams } = require('../Eliakim/Tech');
 const {ajouterUtilisateurAvecWarnCount , getWarnCountByJID , resetWarnCountByJID} = require('../lib/warn')
 const s = require("../config")
 
